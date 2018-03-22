@@ -15,7 +15,7 @@ Send a mail with Oozie!
   Remember to restart the Oozie server after performing the change.
 
 ## Access Oozie WebUI
-  The Oozie WebUI rqeuires Kerberos ticket to access. Web browsers are able to forward the ticket, but must be configured so. An example Firefox configuration will be presented.
+  If the cluster's Kerberized, Oozie WebUI requires Kerberos ticket to access. Web browsers are able to forward the ticket, but must be configured so. An example Firefox configuration will be presented.
 
   1. Open Firefox browser.
   2. Open new tab, type `about:config` in the address bar and open it.
@@ -31,7 +31,7 @@ Send a mail with Oozie!
   7. You should be able to see all running Oozie workflows.
 
 ## Workflow itself
-  The Oozie Workflow job must be composed of two files:
+  Every Oozie Workflow job must be composed of two files:
   - job.properties
 
     ```
