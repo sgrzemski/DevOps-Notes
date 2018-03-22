@@ -1,2 +1,2 @@
-# Hadoop-Administration-Notes
+# Hadoop Administration Notes
 Just some usefull Hadoop stuff.
