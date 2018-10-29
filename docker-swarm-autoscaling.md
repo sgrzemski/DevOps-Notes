@@ -133,7 +133,7 @@ ansible-playbook -e 'host_key_checking=False' -i /home/ansible/inventory /home/a
 ```yaml
 ---
 - name: "Docker service scaling playobok"
-  hosts: ai-master101
+  hosts: ONE_OF_SWARM_MASTERS
   gather_facts: true
   become: true
   tasks:
