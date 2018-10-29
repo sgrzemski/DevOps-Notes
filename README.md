@@ -1,2 +1,2 @@
-# Hadoop Administration Notes
-Just some usefull Hadoop stuff.
+# DevOps Notes
+Yet another usefull stuff.
