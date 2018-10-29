@@ -198,4 +198,5 @@ To setup the environment you need to ensure that following components are runnin
 * Nginx Reverse Proxy
 
 To execute a sample alert you can curl the Prometheus-AM-Executor with a command:
+
 ```curl -H "Content-Type: application/json" -d '{"receiver":"default","status":"firing","alerts":[{"status":"firing","labels":{"severity":"critical","alertname":"service_capacity_backend","instance":"localhost:5678","job":"broken","monitor":"codelab-monitor","service":"synonyms"},"annotations":{},"startsAt":"2016-04-07T18:08:52.804+02:00","endsAt":"0001-01-01T00:00:00Z","generatorURL":""}],"groupLabels":{"alertname":"InstanceDown"},"commonLabels":{"alertname":"InstanceDown","job":"broken","monitor":"codelab-monitor"},"commonAnnotations":{},"externalURL":"http://oldpad:9093","version":"3","groupKey":9777663806026784477}' PROMETHEUS_AM_EXECUTOR:9092/api/v1/alerts```
